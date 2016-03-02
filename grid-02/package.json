@@ -1,0 +1,14 @@
+{
+  "name": "grid-b2",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Thomas Chan",
+  "license": "",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-watch": "^4.3.5"
+  },
+  "dependencies": {}
+}

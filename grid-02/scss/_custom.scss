@@ -1,0 +1,107 @@
+.block {
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 18px;
+}
+.content {
+    background-color: #176B36;
+    height: 100%;
+}
+
+[class*="col-"]:nth-child(1) { background-color: #AEC3F7; }
+[class*="col-"]:nth-child(1) .block { background-color: #4F628E; }
+[class*="col-"]:nth-child(2) { background-color: #9CAFDE; }
+[class*="col-"]:nth-child(2) .block { background-color: #2E4272; }
+[class*="col-"]:nth-child(3) { background-color: #8A9BC4; }
+[class*="col-"]:nth-child(3) .block { background-color: #162955; }
+[class*="col-"]:nth-child(4) { background-color: #7887AB; }
+[class*="col-"]:nth-child(4) .block { background-color: #061539; }
+[class*="col-"]:nth-child(5) { background-color: #887CAF; }
+[class*="col-"]:nth-child(5) .block { background-color: #615192; }
+[class*="col-"]:nth-child(6) { background-color: #756B96; }
+[class*="col-"]:nth-child(6) .block { background-color: #403075; }
+[class*="col-"]:nth-child(7) { background-color: #61597D; }
+[class*="col-"]:nth-child(7) .block { background-color: #261758; }
+[class*="col-"]:nth-child(8) { background-color: #4D4663; }
+[class*="col-"]:nth-child(8) .block { background-color: #13073A; }
+[class*="col-"]:nth-child(9) { background-color: #D08BAF; }
+[class*="col-"]:nth-child(9) .block { background-color: #AD5784; }
+[class*="col-"]:nth-child(10) { background-color: #B87B9A; }
+[class*="col-"]:nth-child(10) .block { background-color: #8B2E5F; }
+[class*="col-"]:nth-child(11) { background-color: #9E6A85; }
+[class*="col-"]:nth-child(11) .block { background-color: #68113F; }
+[class*="col-"]:nth-child(12) { background-color: #855970; }
+[class*="col-"]:nth-child(12) .block { background-color: #450025; }
+
+/* XS half gutter: 22  outer gutter: 28 */
+.container-fluid {
+  background-color: #EEE;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+// section {
+//   margin-left: -48px;
+//   margin-right: -48px;
+//   padding-left: 48px;
+//   padding-right: 48px;
+//   background-color: aquamarine;
+// }
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+// /* SM half gutter: 28 12  outer gutter: 40 24 */
+@media (min-width: 768px) {
+  .container-fluid {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+//   /* xs/sm have inner padding but md/lg have outer padding */
+
+  .col-xs-1, .col-sm-1, .col-md-1,
+  .col-xs-2, .col-sm-2, .col-md-2,
+  .col-xs-3, .col-sm-3, .col-md-3,
+  .col-xs-4, .col-sm-4, .col-md-4,
+  .col-xs-5, .col-sm-5, .col-md-5,
+  .col-xs-6, .col-sm-6, .col-md-6,
+  .col-xs-7, .col-sm-7, .col-md-7,
+  .col-xs-8, .col-sm-8, .col-md-8,
+  .col-xs-9, .col-sm-9, .col-md-9,
+  .col-xs-10, .col-sm-10, .col-md-10,
+  .col-xs-11, .col-sm-11, .col-md-11,
+  .col-xs-12, .col-sm-12, .col-md-12, {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .row {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
+// /* M half gutter: 36  outer gutter: 48 */
+@media (min-width: 1024px) {
+  .container-fluid {
+    max-width: 1260px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .row {
+    margin-left: -18px;
+    margin-right: -18px;
+  }
+  .col-xs-1, .col-sm-1, .col-md-1,
+  .col-xs-2, .col-sm-2, .col-md-2,
+  .col-xs-3, .col-sm-3, .col-md-3,
+  .col-xs-4, .col-sm-4, .col-md-4,
+  .col-xs-5, .col-sm-5, .col-md-5,
+  .col-xs-6, .col-sm-6, .col-md-6,
+  .col-xs-7, .col-sm-7, .col-md-7,
+  .col-xs-8, .col-sm-8, .col-md-8,
+  .col-xs-9, .col-sm-9, .col-md-9,
+  .col-xs-10, .col-sm-10, .col-md-10,
+  .col-xs-11, .col-sm-11, .col-md-11,
+  .col-xs-12, .col-sm-12, .col-md-12, {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}

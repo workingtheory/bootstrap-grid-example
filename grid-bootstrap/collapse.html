@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Note there is no responsive meta tag here -->
+    <title>Grid</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="css/non-responsive.css" rel="stylesheet"> -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+      <![endif]-->
+
+
+    <style type="text/css">
+        .block {
+            height: 200px;
+        }
+        [class*="col-"]:nth-child(odd) { background-color: #dcebef; }
+        [class*="col-"]:nth-child(odd) .block { background-color: #cbe1e7; }
+        [class*="col-"]:nth-child(even) { background-color: #fce9f4; }
+        [class*="col-"]:nth-child(even) .block { background-color: #f9d2e9; }
+        [class*="col-"]:nth-child(1) { background-color: #d9f2dd; }
+        [class*="col-"]:nth-child(1) .block { background-color: #b3e5bb; }
+    </style>
+  </head>
+
+<body>
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Link with href
+                </a>
+                <div class="collapse" id="collapseExample">
+                  <div class="well">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+            </div>
+        </div>
+   </div><!-- .container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/collapse.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+        });
+    </script>
+</body>
+</html>

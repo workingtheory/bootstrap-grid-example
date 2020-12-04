@@ -1,4 +1,1 @@
-workingtheory.github.io
-=======================
-
-User Site
+Bootstrap Grid Example
